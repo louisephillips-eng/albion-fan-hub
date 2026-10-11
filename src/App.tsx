@@ -48,6 +48,70 @@ function App() {
         
       </section>
 
+      
+<section id="travel" className="essentials">
+  <h2>Matchday essentials</h2>
+
+  <div className="essential-grid">
+    <article className="essential-card">
+      <span className="card-icon" aria-hidden="true">↗</span>
+      <h3>Travel</h3>
+      <p>
+        Plan your journey and find useful travel information
+        before you leave home.
+      </p>
+      <a href="#updates">
+        Explore travel <span aria-hidden="true">→</span>
+      </a>
+    </article>
+
+    <article id="stadium" className="essential-card">
+      <span className="card-icon" aria-hidden="true">⌖</span>
+      <h3>Stadium guide</h3>
+      <p>
+        Find entrances, facilities and accessibility
+        information for your visit.
+      </p>
+      <a href="#updates">
+        Explore stadium <span aria-hidden="true">→</span>
+      </a>
+    </article>
+  </div>
+</section>
+
+    <section id="updates" className="updates">
+      <h2>Latest Updates</h2>
+      <p className="last-checked">
+        Example updates - not live data</p>
+        
+        <div className="updates-list">
+          <article className="update-item">
+            <div className="update-heading">
+              <span className="update-category">Travel</span>
+              <span className="update-time">Example Time</span>
+            </div>
+            <h3>Plan your Journey</h3>
+            <p>Check your travel options before leaving for the stadium.</p>
+          </article>
+
+          <article className="update-item">
+            <div className="update-heading">
+              <span className="update-category">Stadium</span>
+              <span className="update-time">Example Time</span>
+            </div>
+            <h3>Prepare for your visit</h3>
+            <p>Find entrances, facilities and accessibility information for your visit.</p>
+          </article>
+          <article className="update-item">
+            <div className="update-heading">
+              <span className="update-category">Matchday</span>
+              <span className="update-time">Example Time</span>
+            </div>
+            <h3>CheckMatchday information</h3>
+            <p>Get the latest matchday information and updates.</p>
+          </article>
+        </div>
+    </section>
       </main>
     </div>
   )
